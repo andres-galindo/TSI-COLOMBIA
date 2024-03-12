@@ -8,7 +8,7 @@ let notificaciones = document.querySelector(".notificaciones");
 
 btn.addEventListener("click", ()=>{
     
-    if(nparte.value === "" && equipo.value === ""){
+    if(nparte.value === "" || equipo.value === ""){
         notificaciones.classList.remove("activo");
     }else{
         for (let i = 0; i <= 39; i++) {
