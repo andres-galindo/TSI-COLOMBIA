@@ -12,6 +12,10 @@
     grid-template-rows: repeat(10, 1fr);
     padding: 5px;
     gap: 1rem;
+    background: black;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/85/893/desktop-wallpaper-electronic-communication-electronics-and-communication-engineering.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .items{
@@ -27,4 +31,66 @@
 h1, h2, h3{
     font-size: 14px;
     margin-bottom: 3px;
+}
+
+.modal{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 300px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-tecnologia-placa-circuito-sistema-conexion-datos-digitales-alta-tecnologia-computadora-electronica_29971-480.jpg);
+    color: white;
+    box-shadow: 0px 0px 10px 5px;
+}
+
+.activo{
+    display: none;
+}
+
+.modal h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.notificaciones{
+    position: absolute;
+    font-size: 50px;
+    bottom: 100px;
+    left: 30%;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
 }
