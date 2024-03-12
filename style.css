@@ -31,6 +31,7 @@
 h1, h2, h3{
     font-size: 14px;
     margin-bottom: 3px;
+    text-transform: uppercase;
 }
 
 .modal{
@@ -86,8 +87,8 @@ input{
     position: absolute;
     font-size: 50px;
     bottom: 100px;
-    left: 30%;
-    background-color: black;
+    left: 34%;
+    background-color: rgba(0, 0, 0, 0.699);
     color: white;
     width: auto;
     height: auto;
