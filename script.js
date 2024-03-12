@@ -10,6 +10,8 @@ btn.addEventListener("click", ()=>{
     
     if(nparte.value === "" || equipo.value === ""){
         notificaciones.classList.remove("activo");
+        nparte.value = "";
+        equipo.value = "";
     }else{
         for (let i = 0; i <= 39; i++) {
             let div = document.createElement("div");
@@ -30,3 +32,4 @@ btn.addEventListener("click", ()=>{
         notificaciones.classList.add("activo");
     }
 })
+
