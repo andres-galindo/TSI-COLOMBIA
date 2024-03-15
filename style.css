@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    padding: 5px;
+    padding: 15px 15PX 20PX 15PX;
     gap: 1rem;
     background: black;
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/85/893/desktop-wallpaper-electronic-communication-electronics-and-communication-engineering.jpg);
@@ -25,13 +25,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
-h1, h2, h3{
+h1{
     font-size: 14px;
     margin-bottom: 3px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+h2, h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3{
+    font-size: 12px;
 }
 
 .modal{
@@ -94,4 +106,10 @@ input{
     height: auto;
     padding: 10px;
     border-radius: 20px;
+}
+
+small{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 3px;
 }
